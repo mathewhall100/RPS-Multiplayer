@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<title>RPS-multiplayer</title>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+	<!-- Bootstrap CDN -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Bootstrap JQuery plugins -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Firebase reference -->
+	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+	<!-- Stylesheet (stylesheet will call reset.css) -->
+
+	<link rel = "stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+</head>
+
+
+<body>
+
+<div class="allcontent container">
+
+
+	<!-- jumbotron -->
+	<div class="jumbotron">
+		<h1 class="header-text">Rock-Paper-Scissors</h1>
+		<p class="subheader-text"> A multiplayer game</p>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12">
+
+			<div id="login" class="login"></div>
+			<div id="status" class="status"></div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-4">
+
+			<div class="player-box"  id="player1-box">
+
+				<div id="player1-name" class="player-name">Waiting for Player 1</div>
+				<div id="player1-rps" class="player-rps"></div>
+				<div id="player1-stats" class="player-stats"></div>
+
+			</div>
+
+		</div>
+
+		<div class="col-sm-4">
+
+			<div class="center-box" id="center-box">Result</div>
+
+		</div>
+
+		<div class="col-sm-4">
+
+			<div class="player-box" id="player2-box">
+
+				<div id="player2-name" class="player-name">Waiting for Player 1</div>
+				<div id="player2-rps" class="player-rps"></div>
+				<div id="player2-stats" class="player-stats"></div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<div class="row">
+
+		<div class="col-sm-2 chat-box"></div>
+
+		<div class="col-sm-8 chat-box">
+
+			<div class="chat-text" id="chat-text"></div>
+			<input type="text" class="chat-msg" id="chat-msg"></input>
+			<button type="submit" class="chat-submit" id="chat-submit">Send</button>
+
+
+		</div>
+
+		 <div class="col-sm-2 chat-box"></div>
+
+	</div>
+
+</div>
+
+	 <div class="container"> 
+
+		<div class="row">
+			<div class="col-md-12 footer">
+
+				<div>Mathew Hall &copy 2017</div>
+
+			</div>
+		</div>
+
+	</div> 
+
+
+
+</body>
+
+
+
+
+
+	<!-- Our javascript file -->
+
+	<script src="assets/javascript/app.js"></script>
+
+	
+</body>
+</html>
