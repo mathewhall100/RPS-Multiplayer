@@ -214,18 +214,21 @@ p {
 
 .msg-color0 {
     color: #999;
-    font-size: 15px;
+    font-size: 14px;
     font-style: italic;
+    padding: 2px;
 }
 
 .msg-color1 {
     color: teal;
-    font-size: 15px;
+    font-size: 14px;
+    padding: 2px;
 }
 
 .msg-color2 {
     color: darkred;
-    font-size: 15px;
+    font-size: 14px;
+    padding: 2px;
 }
 
 

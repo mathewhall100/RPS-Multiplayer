@@ -319,6 +319,7 @@ $(document).ready(function() {
 
             $('#player1-rps').text(player1Choice).addClass("choice");
             $('#player2-rps').text(player2Choice).addClass("choice");
+            $('#status').text(" ----------------------------- ");
 
             if (player1Choice == "Rock" && player2Choice == "Paper") { Game.winner = 2; } 
             else if (player1Choice == "Rock" && player2Choice == "Scissors") { Game.winner = 1; } 
@@ -470,7 +471,7 @@ $(document).ready(function() {
             chat.push().set(newMsg);
 
             $("#chat-msg").val("");
-            
+
         }
 
     });
